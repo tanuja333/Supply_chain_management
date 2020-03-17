@@ -1,0 +1,9 @@
+forecasting demand:
+patterns: trend, random flunctuations, cyclical and seasonal fuctuations.
+cyclical : -> automobile industry ia an example nfor fuctuation cyclic over decades.
+
+Forecasting techniques:
+1. Simple moving average forecast. adding demand for last 3 months and taking average. to determine forcast for next months.
+2. Weighted Moving Average forecast.
+
+
