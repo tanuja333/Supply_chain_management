@@ -4,6 +4,29 @@ cyclical : -> automobile industry ia an example nfor fuctuation cyclic over deca
 
 Forecasting techniques:
 1. Simple moving average forecast. adding demand for last 3 months and taking average. to determine forcast for next months.
-2. Weighted Moving Average forecast.
+2. Weighted Moving Average forecast. adding high weightge to 3rd month demand and lower weightage to 1st month demand in past 3 month
+		wieghts value may change but adding all weigts should be equal to 100.
+3. Forcasting using exponential smoothing. less data required , previous month forecast and demand and alpha.
+	demand*aplha+forecast*(1-alpha).
+
+########################################################################################################
+Understanding forecasting error.
+1. min err b/w actual and forecast demand.
+2. look for patterns as mentiond above.
+
+Measuring forecast error.
+1. cumulative sum of err. demand-forcast with hold signature --> add it -> cumulative err
+2. Mean square root error. sqaure cummulative err --> add all rows and divide by num of months--> then take sqare root for the same value.
+3. Mean Absolute Deviation. absolute value of each cummulative value --> add them all and take avg on months. ans is err.
+4. Mean Absolute percent err. mean absolute deviation/demand*100% --> add percentages for all the column and take average of months. ans is err
+#########################################################################################################
+Manufacturing
+Conversion of raw materials into finish products.
+cost of good sold - when a product is sold more than its actual cost - profit.
+
+
+
+
+
 
 
